@@ -1,6 +1,6 @@
-# Retail Orders Data Analysis
+# Retail Orders Data Pipeline (Python + SQL)
 
-A Python and SQL project that analyzes retail sales data to generate business insights.
+This project demonstrates the design of an end-to-end data pipeline that ingests raw retail data, performs data transformation, and loads it into a structured database for analytical querying.
 
 ## What it does
 
@@ -29,6 +29,22 @@ A Python and SQL project that analyzes retail sales data to generate business in
 - Python (pandas, sqlalchemy)
 - SQL Server
 - Kaggle API
+  
+## Data Pipeline Architecture
+
+1. Data Ingestion  
+   - Download dataset via Kaggle API  
+
+2. Data Transformation  
+   - Clean missing values  
+   - Compute metrics (profit, discounts)  
+   - Normalize dataset  
+
+3. Data Storage  
+   - Load processed data into SQL Server  
+
+4. Data Analysis  
+   - Execute SQL queries for business insights  
 
 ## Sample Insights
 
