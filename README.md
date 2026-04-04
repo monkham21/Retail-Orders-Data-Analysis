@@ -1,6 +1,7 @@
 # Retail Orders Data Pipeline (Python + SQL)
 
 This project demonstrates the design of an end-to-end data pipeline that ingests raw retail data, performs data transformation, and loads it into a structured database for analytical querying.
+![Pipeline Diagram](retail_pipeline_1024x768.png)
 
 ## What it does
 
